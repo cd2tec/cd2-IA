@@ -9,8 +9,8 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "cd server && npm install && react-scripts build && nodemon index.js && cd client && npm run dev",
-    "dev": "cd client && npm run dev && nodemon index.js"
+    "start": "cd server & npm install & nodemon index.js",
+    "dev": "cd client & npm run dev & nodemon index.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
