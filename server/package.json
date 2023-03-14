@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
-  "author": "tuat tran anh",
+  "author": "Bruno Santos",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "npm install && react-scripts build && nodemon index.js && cd client && npm run dev",
+    "dev": "cd client && npm run dev && nodemon index.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
